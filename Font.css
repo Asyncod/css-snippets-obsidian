@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("JetBrainsMono-Light.ttf") format("truetype");
+}
+
+/* INTERFACE */
+body,
+div,
+span,
+input,
+button,
+textarea {
+  font-family: "JetBrains Mono", monospace !important;
+}
+
+/* TEXT */
+.markdown-source-view,
+.markdown-preview-view {
+  font-family: "JetBrains Mono", monospace !important;
+}
